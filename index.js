@@ -3,7 +3,6 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
-    'plugin:markdown/recommended',
     'prettier',
   ],
 
@@ -50,7 +49,7 @@ module.exports = {
     "prefer-promise-reject-errors": "off",
     "no-use-before-define": "warn",
     // eslint-plugin-import
-    'import/order': 'off',
+    'import/order': 'warn',
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
@@ -66,7 +65,6 @@ module.exports = {
     // typescript-eslint
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
-    '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-empty-function': 'off',
@@ -86,12 +84,6 @@ module.exports = {
     {
       files: ['*.vue'],
       parser: require.resolve('vue-eslint-parser'),
-    },
-    {
-      files: ['**/*.md'],
-      rules: {
-        '@typescript-eslint/no-unused-vars': 'off',
-      },
     },
   ],
 };

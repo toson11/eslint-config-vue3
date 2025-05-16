@@ -6,13 +6,13 @@
 
 ## 安装
 ```shell
-npm install @tuxinlab/eslint-config -D
+npm install @tuxinlab/eslint-config-vue3 -D
 ```
 
 ## 使用
 ```json
 {
-  "extends": ["@tuxinlab/eslint-config"]
+  "extends": ["@tuxinlab/eslint-config-vue3"]
   // ...其他配置
 }
 ```
