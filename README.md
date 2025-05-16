@@ -5,11 +5,13 @@
 用于 vue3 项目的通用 eslint 配置
 
 ## 安装
+
 ```shell
 npm install @tuxinlab/eslint-config-vue3 -D
 ```
 
 ## 使用
+
 ```json
 {
   "extends": ["@tuxinlab/eslint-config-vue3"]

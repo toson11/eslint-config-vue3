@@ -4,6 +4,7 @@ module.exports = {
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
     'prettier',
+    'plugin:prettier/recommended',
   ],
 
   parserOptions: {
@@ -46,8 +47,8 @@ module.exports = {
     'class-methods-use-this': 'off',
     'prefer-destructuring': ['warn', { object: true, array: false }],
     'prefer-object-spread': 'off',
-    "prefer-promise-reject-errors": "off",
-    "no-use-before-define": "warn",
+    'prefer-promise-reject-errors': 'off',
+    'no-use-before-define': 'warn',
     // eslint-plugin-import
     'import/order': 'warn',
     'import/extensions': 'off',
@@ -71,13 +72,13 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
       {
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_"
-      }
-    ]
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      },
+    ],
   },
 
   overrides: [
